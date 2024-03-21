@@ -84,7 +84,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-url = 'postgres://back472_blog_user:G6BdUXUTjruB9deJPY6PGGBCxR4wmJNe@dpg-cno0qkn109ks73ch112g-a.oregon-postgres.render.com/back472_blog'
+url = 'postgres://my_comments_db_user:lCmqD9rbSXFahHKyk6hard5Ek2kgXpm2@dpg-cno9q1i0si5c73b3h88g-a.oregon-postgres.render.com/my_comments_db'
 database_url = os.environ.get('DATABASE_URL', url)
 DATABASES['default'] = dj_database_url.parse(database_url)
 
@@ -125,7 +125,7 @@ EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 EMAIL_HOST = "localhost"
 EMAIL_PORT = 1025
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'iamsolijonovasadbek@mail.com'
+EMAIL_HOST_USER = 'abduxamidikramov12@gmail.com'
 EMAIL_HOST_PASSWORD = 'qwerty002@#'
 
 # Internationalization
